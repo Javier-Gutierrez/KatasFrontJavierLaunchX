@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./img/Pasteleria Logo.png">
+        <title>Realizar Pedido</title>
+    </head>
+    <body>
+        <img src="./img/Pasteleria Logo.png" alt="Pasteleria Cosmica" width="150px"><br>
+        <h1>Realiza tu pedido Pastelenauta </h1>
+
+        <form action="pedido.js">
+            <label for="Nombre">Ingresa tu nombre Pastelenauta</label><br>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre"><br><br>
+
+            <label for="Telefono">Ingresa tu telefono Pastelenauta</label><br>
+            <input type="tel" name="Telefono" id="Telefono" placeholder="Telefono" minlength="10" maxlength="13"><br><br>
+
+            <label for="E-mail">Ingresa tu e-mail Pastelenauta</label><br>
+            <input type="email" name="E-mail" id="E-mail" placeholder="E-mail"><br><br>
+            <hr>
+
+            <p>Elige tus Sabores (Puedes elegir máximo dos sabores distintos)</p>
+
+            <input type="checkbox" name="Pasteles" id="Mercurio">
+            <label for="Mercurio">Mercurio</label><br>
+
+            <input type="checkbox" name="Pasteles" id="Venus">
+            <label for="Venus">Venus</label><br>
+
+            <input type="checkbox" name="Pasteles" id="Tierra">
+            <label for="Tierra">Tierra</label><br>
+
+            <input type="checkbox" name="Pasteles" id="Via Lactea">
+            <label for="Via Lactea">Via Lactea</label><br>
+
+            <input type="checkbox" name="Pasteles" id="Andromeda">
+            <label for="Andromeda">Andromeda</label><br>
+            <hr>
+
+            <p>Elige tus Decoraciones</p>
+
+            <input type="checkbox" name="Decoraciones" id="Cometas">
+            <label for="Cometas">Cometas</label><br>
+
+            <input type="checkbox" name="Decoraciones" id="Estrellas">
+            <label for="Estrellas">Estrellas</label><br>
+
+            <input type="checkbox" name="Decoraciones" id="Astronautas">
+            <label for="Astronautas">Astronautas</label><br>
+
+            <input type="checkbox" name="Decoraciones" id="Cohetes">
+            <label for="Cohetes">Cohetes</label><br><br>
+
+            <input type="reset">
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
